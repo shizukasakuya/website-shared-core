@@ -66,3 +66,4 @@ var DiscordIcon = function DiscordIcon(props) {
 };
 
 exports.DiscordIcon = DiscordIcon;
+//# sourceMappingURL=header-icons.js.map

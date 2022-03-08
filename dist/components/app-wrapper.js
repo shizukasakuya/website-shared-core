@@ -37,3 +37,4 @@ function AppWrapper(_ref) {
     w: "inherit"
   }, /*#__PURE__*/_react["default"].createElement(_footer.Footer, null)))));
 }
+//# sourceMappingURL=app-wrapper.js.map

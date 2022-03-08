@@ -16,3 +16,4 @@ Object.keys(_components).forEach(function (key) {
     }
   });
 });
+//# sourceMappingURL=index.js.map

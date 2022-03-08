@@ -20,3 +20,4 @@ var Footer = function Footer() {
 };
 
 exports.Footer = Footer;
+//# sourceMappingURL=footer.js.map
