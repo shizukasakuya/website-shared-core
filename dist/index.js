@@ -3,27 +3,16 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "AppWrapper", {
-  enumerable: true,
-  get: function get() {
-    return _appWrapper.AppWrapper;
-  }
-});
-Object.defineProperty(exports, "Footer", {
-  enumerable: true,
-  get: function get() {
-    return _footer.Footer;
-  }
-});
-Object.defineProperty(exports, "Header", {
-  enumerable: true,
-  get: function get() {
-    return _header.Header;
-  }
-});
 
-var _footer = require("./footer");
+var _components = require("./components");
 
-var _appWrapper = require("./app-wrapper");
-
-var _header = require("./header");
+Object.keys(_components).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _components[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _components[key];
+    }
+  });
+});
