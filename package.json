@@ -18,9 +18,9 @@
   "homepage": "https://github.com/shizukasakuya/website-shared-core#readme",
   "peerDependencies": {
     "@chakra-ui/react": "*",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-router-dom": "^6.2.2"
+    "react": "*",
+    "react-dom": "*",
+    "react-router-dom": "*"
   },
   "dependencies": {
     "react-icons": "^4.3.1"
