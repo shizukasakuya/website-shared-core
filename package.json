@@ -2,9 +2,11 @@
   "name": "website-shared-core",
   "version": "1.0.0",
   "description": "shared core of website utilities for Shizuka Sakuya websites",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "compile": "npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__"
   },
   "repository": {
     "type": "git",
