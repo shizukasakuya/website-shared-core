@@ -10,7 +10,7 @@ export const Footer = () => {
             </Text>
             <Spacer />
             <Text fontSize="sm" paddingRight = "4px"  >
-                 shizuka sakuya
+                 kuya nine
             </Text>
         </Flex>
     )
