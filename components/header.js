@@ -7,7 +7,7 @@ export const Header = () => {
         <Flex grow="true" padding="2">
             <Box p="2" paddingRight="0">
                 <Link to="/">
-                 <Heading size="lg">Shizuka Sakuya</Heading>
+                 <Heading size="lg">Kuya Nine</Heading>
                 </Link>
             </Box>
             <Spacer />
