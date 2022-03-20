@@ -21,7 +21,7 @@ export function AppWrapper({children}) {
           <Box h={["7vh", "15vh"]} w="inherit">
             <Header/>
           </Box>
-          <Box h={["90vh", "80vh"]} w="inherit" overflowY="auto" >
+          <Box h={["90vh", "80vh"]} w="inherit" overflow="visible" >
             {children}
           </Box>
           <Box h={["3vh", "3vh"]} w="inherit" >
